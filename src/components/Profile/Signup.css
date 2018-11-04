@@ -1,0 +1,31 @@
+.signUp {
+  margin: 20vh auto;
+  padding: 1.5em 2em;
+  width: 33%;
+  box-shadow: 0 0 3px 1px rgb(163, 162, 162);
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.miniTitle {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.7px;
+  font-weight: 600;
+}
+.signUp button {
+  margin: 0 25%;
+  width: 30%;
+  border-radius: 0;
+}
+
+@media (max-width: 414px) {
+  .signUp {
+    margin: 20vh auto;
+    padding: 1.5em 1.5em;
+    width: 95%;
+    box-shadow: 0 0 3px 1px rgb(163, 162, 162);
+  }
+}

@@ -5,6 +5,8 @@ import Navigation from './Navigation/Navigation';
 import Home from './Layout/Home';
 import Profile from './Profile/Profile';
 import Watch from './Video/Watch';
+import Signup from './Profile/Signup';
+import Login from './Profile/Login';
 
 class App extends Component {
   render() {
@@ -13,8 +15,10 @@ class App extends Component {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/user/:id" component={Profile} />
-          <Route exact path="/watch/:id" component={Watch} />
+          <Route path="/login" component={Login} />
+          <Route path="/signup" component={Signup} />
+          <Route path="/user/:id" component={Profile} />
+          <Route path="/watch/:id" component={Watch} />
         </Switch>
       </div>
     );

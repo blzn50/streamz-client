@@ -41,13 +41,13 @@ class Navigation extends React.Component {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink className="nav-link" to="#">
-                    Login
+                  <NavLink className="nav-link" to="/login">
+                    Log In
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="#">
-                    Register
+                  <NavLink className="nav-link" to="/signup">
+                    Sign Up
                   </NavLink>
                 </NavItem>
               </Nav>
