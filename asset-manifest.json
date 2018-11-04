@@ -1,0 +1,22 @@
+{
+  "main.css": "/streamz-client/static/css/main.5a400553.chunk.css",
+  "main.js": "/streamz-client/static/js/main.fd2baf4b.chunk.js",
+  "main.js.map": "/streamz-client/static/js/main.fd2baf4b.chunk.js.map",
+  "static/css/1.00fb5860.chunk.css": "/streamz-client/static/css/1.00fb5860.chunk.css",
+  "static/js/1.79b26b10.chunk.js": "/streamz-client/static/js/1.79b26b10.chunk.js",
+  "static/js/1.79b26b10.chunk.js.map": "/streamz-client/static/js/1.79b26b10.chunk.js.map",
+  "runtime~main.js": "/streamz-client/static/js/runtime~main.c0c80a0f.js",
+  "runtime~main.js.map": "/streamz-client/static/js/runtime~main.c0c80a0f.js.map",
+  "static/media/team.placeholder.png": "/streamz-client/static/media/team.placeholder.9cd963f3.png",
+  "static/media/playStore.png": "/streamz-client/static/media/playStore.e760ce49.png",
+  "static/media/reactLogo.png": "/streamz-client/static/media/reactLogo.f81a6f37.png",
+  "static/media/reduxLogo.png": "/streamz-client/static/media/reduxLogo.59c46753.png",
+  "static/media/nodeLogo.png": "/streamz-client/static/media/nodeLogo.e3f9f5f0.png",
+  "static/media/videoPlaceholder.png": "/streamz-client/static/media/videoPlaceholder.213dbfd7.png",
+  "static/media/appStore.png": "/streamz-client/static/media/appStore.e661edea.png",
+  "static/css/main.5a400553.chunk.css.map": "/streamz-client/static/css/main.5a400553.chunk.css.map",
+  "static/css/1.00fb5860.chunk.css.map": "/streamz-client/static/css/1.00fb5860.chunk.css.map",
+  "index.html": "/streamz-client/index.html",
+  "precache-manifest.eea0388671b19cda5077cc10951b9ed2.js": "/streamz-client/precache-manifest.eea0388671b19cda5077cc10951b9ed2.js",
+  "service-worker.js": "/streamz-client/service-worker.js"
+}
