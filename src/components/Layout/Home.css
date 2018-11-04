@@ -1,0 +1,5 @@
+.img-cover {
+  background: url('https://mdbootstrap.com/img/Photos/Others/img%20(50).jpg') no-repeat center
+    center;
+  background-size: cover;
+}
