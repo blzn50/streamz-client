@@ -1,8 +1,16 @@
 .signUp {
   margin: 20vh auto;
   padding: 1.5em 2em;
-  width: 33%;
+  width: 35%;
   box-shadow: 0 0 3px 1px rgb(163, 162, 162);
+}
+
+.eye-icon {
+  position: relative;
+  margin-right: 1em;
+  margin-top: -1.7em;
+  float: right;
+  cursor: pointer;
 }
 
 h3 {
@@ -21,11 +29,40 @@ h3 {
   border-radius: 0;
 }
 
+/* large */
+@media (max-width: 1199px) {
+  .signUp {
+    width: 40%;
+  }
+}
+@media (max-width: 991px) {
+  .signUp {
+    width: 50%;
+  }
+}
+
+/* small */
+@media (max-width: 767px) {
+  .signUp {
+    width: 65%;
+  }
+  .signUp button {
+    margin: 0 25%;
+    width: 40%;
+  }
+}
+
+/* smaller */
+@media (max-width: 576px) {
+  .signUp {
+    width: 70%;
+  }
+}
+
+/* extra small */
 @media (max-width: 414px) {
   .signUp {
-    margin: 20vh auto;
     padding: 1.5em 1.5em;
     width: 95%;
-    box-shadow: 0 0 3px 1px rgb(163, 162, 162);
   }
 }
