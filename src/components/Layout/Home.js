@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
-import { Container } from 'reactstrap';
+import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
 import './Home.css';
+import FeaturedList from './FeaturedList';
 import Team from './Team';
 import About from './About';
 import Tech from './Tech';
@@ -22,18 +23,27 @@ class Home extends Component {
               <p>Experience a revolution in video streaming.</p>
             </div>
           </div>
-          <Container className="text-center my-5">
-            <p align="justify">
-              Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+          <Container fluid className="my-4">
+            <Row>
+              <Col md="3">
+                <Card>
+                  <CardImg
+                    src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97300&w=318&h=300"
+                    alt="placeholder beside featured list"
+                  />
+                  <CardBody>
+                    <CardTitle>Placeholder Title</CardTitle>
+                    <CardText>
+                      Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in r
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col>
+                <FeaturedList />
+              </Col>
+            </Row>
           </Container>
           <hr />
           <Team />
