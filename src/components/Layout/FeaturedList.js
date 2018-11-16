@@ -6,7 +6,7 @@ const FeaturedList = () => {
   return (
     <Container fluid>
       <Row>
-        <Col sm="6" md="4" className="mb-3">
+        <Col sm="6" md="4">
           <VideoItem />
         </Col>
         <Col sm="6" md="4">

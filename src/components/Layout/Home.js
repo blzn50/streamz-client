@@ -1,11 +1,12 @@
 import React, { Component, Fragment } from 'react';
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText } from 'reactstrap';
-import './Home.css';
 import FeaturedList from './FeaturedList';
 import Team from './Team';
 import About from './About';
 import Tech from './Tech';
 import Footer from './Footer';
+import CategoriesList from './CategoriesList';
+import './Home.css';
 
 class Home extends Component {
   render() {
@@ -45,6 +46,8 @@ class Home extends Component {
               </Col>
             </Row>
           </Container>
+          <hr />
+          <CategoriesList />
           <hr />
           <Team />
           <hr />

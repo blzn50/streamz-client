@@ -6,7 +6,7 @@ import './Video.css';
 
 const VideoItem = () => {
   return (
-    <div>
+    <div className="mb-3">
       <Card className="video">
         <div className="overlay">
           <a className="play" href="#">
